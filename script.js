@@ -1,13 +1,3 @@
-var btnCont = document.getElementById("#nav");
-var btns = document.querySelectorAll(".btn");
-
-for (let index = 0; index < btns.length; index++) {
-    btns[i].addEventListener('click', function() {
-        var curr = document.getElementsByClassName("active");
-        curr[0].className=curr[0].className.replace(" active");
-        this.className += " active";
-    })
-}
 
 
 ////////////////////////////////////////////////////
